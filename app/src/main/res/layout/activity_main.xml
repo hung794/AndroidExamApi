@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem thời tiết"
+        android:gravity="center"
+        android:textSize="60px"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <Spinner
+        android:id="@+id/static_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40px"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/result"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/temp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/minTemp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/maxTemp"
+        />
+</LinearLayout>
